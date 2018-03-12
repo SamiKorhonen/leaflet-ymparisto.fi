@@ -1,0 +1,24 @@
+{
+  "name": "leaflet-ymparistofi",
+  "version": "1.0.0",
+  "description": "Testing Leaflet with paikkatieto.ymparisto.fi, which is ESRI ArcGIS Server with dynamic map sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamiKorhonen/leaflet-ymparisto.fi.git"
+  },
+  "keywords": [
+    "Leaflet",
+    "ESRI",
+    "paikkatieto.ymparisto.fi"
+  ],
+  "author": "Sami Korhonen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamiKorhonen/leaflet-ymparisto.fi/issues"
+  },
+  "homepage": "https://github.com/SamiKorhonen/leaflet-ymparisto.fi#readme"
+}
