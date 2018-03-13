@@ -1,9 +1,11 @@
-const path = require('path');
+import "leaflet"
+import * as esri from "esri-leaflet"
 
-module.exports = {
-  entry: './src/index.js',
-  output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
-  }
-};
+
+  var map = L.map("map").setView([37.75, -122.23], 10);
+
+console.log("Esri: ", esri)
+console.log("Esri extension: ", L.esri)
+esri.basemapLayer("Topographic").addTo(map);
+  /*L.esri.basemapLayer("Topographic").addTo(map);*/
+
