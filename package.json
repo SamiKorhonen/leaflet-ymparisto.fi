@@ -4,6 +4,7 @@
   "description": "Testing Leaflet with paikkatieto.ymparisto.fi, which is ESRI ArcGIS Server with dynamic map sources",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/SamiKorhonen/leaflet-ymparisto.fi/issues"
   },
-  "homepage": "https://github.com/SamiKorhonen/leaflet-ymparisto.fi#readme"
+  "homepage": "https://github.com/SamiKorhonen/leaflet-ymparisto.fi#readme",
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  },
+  "dependencies": {
+    "leaflet": "^1.3.1"
+  }
 }
